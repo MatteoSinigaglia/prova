@@ -14,6 +14,8 @@ for (let i = 0; i < data.length; i++) {
     data[i] = data[i].split(',').map(x=>+x);
 }
 
+datanull(data);
+
 /** Calcolo riduzione dimensionale
  *  Possiamo ottente 2 o 3 dimensioni a seconda del grafico scelto
  * */ 
